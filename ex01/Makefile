@@ -5,31 +5,25 @@
 #                                                     +:+ +:+         +:+      #
 #    By: houattou <houattou@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2023/11/30 15:31:41 by houattou          #+#    #+#              #
-#    Updated: 2023/12/01 10:44:08 by houattou         ###   ########.fr        #
+#    Created: 2023/12/01 10:43:25 by houattou          #+#    #+#              #
+#    Updated: 2023/12/01 10:43:59 by houattou         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 SRC = $(wildcard *.cpp)
 
-DEPS = $(wildcard *.tpp)
-
 OBJ = $(SRC:.cpp=.o)
 
 CC = c++
 
-CXFLAGS = -Wall -Wextra -Werror -std=c++98
+CXXFLAGS = -Wall -Wextra -Werror -std=c++98
 
 NAME = a.out
 
 all: $(NAME)
 
 $(NAME): $(OBJ)
-	$(CC) $(CXFLAGS) $(OBJ) -o $(NAME)	
-
-%.o: %.cpp $(DEPS)
-	$(CC) $(CXFLAGS) -c $< -o $@	
-	
+	$(CC) $(CXXFLAGS) $(OBJ) -o $(NAME)	
 clean:
 	rm -f $(OBJ)
 
