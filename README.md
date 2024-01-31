@@ -58,3 +58,23 @@ The "shortestSpan" and "longestSpan" methods calculate the shortest and longest 
 ### Conclusion
 Through the "Span" exercise, participants gain practical experience in encapsulating data and behavior within a class and effectively managing exceptional conditions using custom exceptions. This exercise forms a solid foundation for understanding critical object-oriented programming concepts and their application in real-world scenarios, thereby reinforcing proficiency in C++ development.
 
+## Exploring MutantStack: Understanding Templated Classes and Iterators in C++
+
+The "MutantStack" exercise offers a valuable opportunity to gain hands-on experience in utilizing C++ templated classes and exploring the functionality of iterators. By implementing the "MutantStack" class and comparing it to a standard list, the exercise provides a deeper understanding of the power and flexibility of templated containers and iterators in C++.
+
+#### Key Concepts Learned:
+
+### 1. Templated Classes
+The "MutantStack" class is a templated stack container, illustrating the power of generic programming in C++. This enables the creation of a stack that can store elements of any type, increasing code reusability and flexibility.
+
+### 2. Stack Operations
+The exercise includes operations such as "push" to add elements to the stack, showcasing the fundamental functionality of stack data structures and the interaction with templated classes.
+
+### 3. Iterators
+The usage of iterators with the "MutantStack" class provides insight into traversing and manipulating the elements within the stack. This representation of iterators demonstrates their versatile usage and their role in enabling uniform access to container elements.
+
+### 4. Comparison with Standard List
+By comparing the "MutantStack" with a standard list, the exercise exhibits the custom functionality and behavior of the "MutantStack" class, shedding light on the advantages and flexibility offered by custom templated containers.
+
+### Conclusion
+Through the "MutantStack" exercise, participants gain practical experience in implementing and utilizing templated classes, and understanding the functionality of iterators in C++. This exercise lays a strong foundation for grasping the concepts of generic programming, data containers, and their associated iterators, thereby enhancing proficiency in C++ development.
